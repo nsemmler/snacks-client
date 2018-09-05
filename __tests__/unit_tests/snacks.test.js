@@ -61,10 +61,10 @@ describe('Snacks Model', () => {
     test('throws an error when an invalid Snack id is provided', async () => {
       expect.assertions(4)
 
-      await expect(Snacks.find(-2)).rejects.toMatchObject({ message: "Invalid ID" })
-      await expect(Snacks.find(1.22)).rejects.toMatchObject({ message: "Invalid ID" })
-      await expect(Snacks.find([4])).rejects.toMatchObject({ message: "Invalid ID" })
-      await expect(Snacks.find()).rejects.toMatchObject({ message: "Invalid ID" })
+      await expect(Snacks.find(-2)).rejects.toMatchObject({ message: "Invalid Snack ID" })
+      await expect(Snacks.find(1.22)).rejects.toMatchObject({ message: "Invalid Snack ID" })
+      await expect(Snacks.find([4])).rejects.toMatchObject({ message: "Invalid Snack ID" })
+      await expect(Snacks.find()).rejects.toMatchObject({ message: "Invalid Snack ID" })
     })
   })
 
@@ -88,10 +88,10 @@ describe('Snacks Model', () => {
     test('throws an error when an invalid Snack id is provided', async () => {
       expect.assertions(4)
 
-      await expect(Snacks.update(-2, { name: 'update' })).rejects.toMatchObject({ message: "Invalid ID" })
-      await expect(Snacks.update(1.22, { name: 'update' })).rejects.toMatchObject({ message: "Invalid ID" })
-      await expect(Snacks.update([4], { name: 'update' })).rejects.toMatchObject({ message: "Invalid ID" })
-      await expect(Snacks.update(null, { name: 'update' })).rejects.toMatchObject({ message: "Invalid ID" })
+      await expect(Snacks.update(-2, { name: 'update' })).rejects.toMatchObject({ message: "Invalid Snack ID" })
+      await expect(Snacks.update(1.22, { name: 'update' })).rejects.toMatchObject({ message: "Invalid Snack ID" })
+      await expect(Snacks.update([4], { name: 'update' })).rejects.toMatchObject({ message: "Invalid Snack ID" })
+      await expect(Snacks.update(null, { name: 'update' })).rejects.toMatchObject({ message: "Invalid Snack ID" })
     })
   })
 })

@@ -11,7 +11,7 @@ class Snacks {
 
   // static find = async (id) => {
   static async find (id) {
-    if (!id || !Number.isInteger(id) || id < 0) return Promise.reject(new Error('Invalid ID'))
+    if (!id || !Number.isInteger(id) || id < 0) return Promise.reject(new Error('Invalid Snack ID'))
 
     const response = await axios.get(`${BASE_URL}/snacks/${id}`)
     const snack = response.data
@@ -35,8 +35,8 @@ class Snacks {
 
   // static update = async (...) => {
   static async update (id, {name, description, price, img, is_perishable}) {
-    if (!id || !Number.isInteger(id) || id < 0) return Promise.reject(new Error('Invalid ID'))
-    
+    if (!id || !Number.isInteger(id) || id < 0) return Promise.reject(new Error('Invalid Snack ID'))
+
     const response = await axios.patch(`${BASE_URL}/snacks/${id}`, {name, description, price, img, is_perishable})
     const snack = response.data.data
     return snack

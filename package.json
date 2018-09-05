@@ -17,15 +17,24 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "jest --coverage --runInBand --detectOpenHandles --transformIgnorePatterns __tests__/*_tests/*.test.js",
+    "test": "jest --coverage --runInBand --detectOpenHandles __tests__/*_tests/*.test.js",
     "eject": "react-scripts eject"
   },
   "jest": {
-    "coverageDirectory": "./coverage"
+    "coverageDirectory": "./coverage",
+    "unmockedModulePathPatterns": [
+      "react",
+      "enzyme",
+      "jest-enzyme"
+    ]
   },
   "devDependencies": {
+    "@babel/core": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
+    "babel-jest": "^23.4.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
     "jest": "^23.5.0",
-    "knex": "^0.15.2"
+    "react-test-renderer": "^16.4.2"
   }
 }

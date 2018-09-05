@@ -9,7 +9,6 @@ import EditSnack from './containers/EditSnack'
 import Footer from './components/shared/Footer'
 
 export class App extends Component {
-
   render() {
     return (<div>
       <BrowserRouter>
@@ -23,7 +22,7 @@ export class App extends Component {
           <Footer/>
         </div>
       </BrowserRouter>
-    </div>);
+    </div>)
   }
 }
 

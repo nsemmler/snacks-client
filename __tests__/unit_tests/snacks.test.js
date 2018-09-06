@@ -140,7 +140,8 @@ describe('Snacks Model', () => {
 
     test('updates a Snack', async () => {
       const initialSnacksLength = await Snacks.all()
-      const response = await Snacks.update(1, {
+
+      const response = await Snacks.update(27, {
         name: "Donut",
         description: "A fresh, glazed Krispy Kreme donut",
         price: 1,
@@ -152,7 +153,7 @@ describe('Snacks Model', () => {
 
       expect(response).toBeInstanceOf(Array)
       expect(response[0]).toBeInstanceOf(Object)
-      expect(response[0]).toHaveProperty('id', 1)
+      expect(response[0]).toHaveProperty('id', 27)
       expect(response[0]).toHaveProperty('name', "Donut")
       expect(response[0]).toHaveProperty('description', "A fresh, glazed Krispy Kreme donut")
       expect(response[0]).toHaveProperty('price', 1)

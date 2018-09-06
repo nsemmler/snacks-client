@@ -28,6 +28,12 @@ class Snacks {
 
   // static create = async (...) => {
   static async create (name, description, price, img, is_perishable) {
+    if (!name || typeof name !== 'string') return Promise.reject(new Error('Invalid Snack Name'))
+    if (!description || typeof description !== 'string') return Promise.reject(new Error('Invalid Snack Description'))
+    if (!price || !Number.isInteger(price) || price < 0) return Promise.reject(new Error('Invalid Snack Price'))
+    if (!img || typeof img !== 'string') return Promise.reject(new Error('Invalid Snack Img'))
+    if (!is_perishable || typeof is_perishable !== 'boolean') return Promise.reject(new Error('Invalid Snack Perishable Value'))
+
     const response = await axios.post(`${BASE_URL}/snacks`, {name, description, price, img, is_perishable})
     const snack = response.data.data
     return snack

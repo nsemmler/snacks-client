@@ -12,8 +12,6 @@ import {
 } from 'reactstrap';
 
 const SnackForm = ({handleEditSnack, handleAddSnack, singleSnack}) => {
-  // console.log(handleEditSnack, handleAddSnack, singleSnack);
-
   const snack = {
     id: singleSnack
       ? singleSnack.id

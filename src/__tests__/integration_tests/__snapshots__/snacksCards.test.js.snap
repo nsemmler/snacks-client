@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snacks Cards Component renders consistently 1`] = `
+<div
+  className="card-group"
+>
+  <div
+    className="d-flex align-content-around flex-wrap"
+  >
+    <div
+      className="col-lg-4 col-md-2 col-sm-2 card"
+      sm="6"
+    >
+      <div
+        className="card-body"
+      >
+        <h5
+          className="card-title"
+        >
+          Pork Rinds
+        </h5>
+        <h6
+          className="card-subtitle"
+        >
+          $
+          8
+        </h6>
+      </div>
+      <img
+        alt="Card image cap"
+        className="card-img"
+        id="card_img"
+        src="https://az808821.vo.msecnd.net/content/images/thumbs/0000398_salt-pepper-pork-rinds-2-oz_560.jpeg"
+        width="100%"
+      />
+      <div
+        className="card-body"
+      >
+        <p
+          className="card-text"
+        >
+          Mauris lacinia sapien quis libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.
+        </p>
+        <a
+          href="/snack/1"
+          onClick={[Function]}
+        >
+          <button
+            className="btn btn-secondary btn-lg btn-block"
+            onClick={[Function]}
+            type={undefined}
+          >
+            More Info
+          </button>
+        </a>
+      </div>
+    </div>
+    <div
+      className="col-lg-4 col-md-2 col-sm-2 card"
+      sm="6"
+    >
+      <div
+        className="card-body"
+      >
+        <h5
+          className="card-title"
+        >
+          Soup - Campbells Beef Noodle
+        </h5>
+        <h6
+          className="card-subtitle"
+        >
+          $
+          26
+        </h6>
+      </div>
+      <img
+        alt="Card image cap"
+        className="card-img"
+        id="card_img"
+        src="https://images-na.ssl-images-amazon.com/images/I/71MavWF1P9L._SY550_.jpg"
+        width="100%"
+      />
+      <div
+        className="card-body"
+      >
+        <p
+          className="card-text"
+        >
+          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.
+        </p>
+        <a
+          href="/snack/2"
+          onClick={[Function]}
+        >
+          <button
+            className="btn btn-secondary btn-lg btn-block"
+            onClick={[Function]}
+            type={undefined}
+          >
+            More Info
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snack Form Component renders consistently 1`] = `
+<form
+  className="form-horizontal well"
+  onSubmit={[Function]}
+>
+  <div
+    className="position-relative form-group"
+  >
+    <label
+      className=""
+      htmlFor="title"
+    >
+      Snack Name
+    </label>
+    <textarea
+      className="form-control"
+      defaultValue="Pork Rinds"
+      id="title"
+      name="title"
+      required="required"
+    />
+  </div>
+  <div
+    className="position-relative form-group"
+  >
+    <label
+      className=""
+      htmlFor="description"
+    >
+      Snack Description
+    </label>
+    <textarea
+      className="form-control"
+      defaultValue="Mauris lacinia sapien quis libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis."
+      id="description"
+      name="description"
+      required="required"
+    />
+  </div>
+  <div
+    className="position-relative form-group"
+  >
+    <label
+      className=""
+      htmlFor="url"
+    >
+      Url
+    </label>
+    <input
+      className="form-control"
+      defaultValue="https://az808821.vo.msecnd.net/content/images/thumbs/0000398_salt-pepper-pork-rinds-2-oz_560.jpeg"
+      id="img"
+      name="img"
+      placeholder="url"
+      required="required"
+      type="url"
+    />
+  </div>
+  <div
+    className="position-relative form-group"
+  >
+    <label
+      className=""
+      htmlFor="price"
+    >
+      Snack Price?
+    </label>
+    <div
+      className="input-group"
+    >
+      <div
+        className="input-group-prepend"
+      >
+        <span
+          className="input-group-text"
+        >
+          $
+        </span>
+      </div>
+      <input
+        className="form-control"
+        defaultValue={8}
+        id="name"
+        name="price"
+        placeholder="Amount"
+        required="required"
+        type="number"
+      />
+      <div
+        className="input-group-append"
+      >
+        <span
+          className="input-group-text"
+        >
+          .00
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="position-relative form-group"
+  >
+    <label
+      className=""
+      htmlFor="is_perishable"
+    >
+      Is your snack perishable?
+    </label>
+    <div>
+      <div
+        className="custom-radio custom-control custom-control-inline"
+      >
+        <input
+          className="custom-control-input"
+          id="true"
+          name="is_perishable"
+          type="radio"
+          value="true"
+        />
+        <label
+          className="custom-control-label"
+          htmlFor="true"
+        >
+          Yes
+        </label>
+      </div>
+      <div
+        className="custom-radio custom-control custom-control-inline"
+      >
+        <input
+          className="custom-control-input"
+          id="false"
+          name="is_perishable"
+          type="radio"
+          value="false"
+        />
+        <label
+          className="custom-control-label"
+          htmlFor="false"
+        >
+          No
+        </label>
+      </div>
+    </div>
+  </div>
+  <div
+    className="position-relative form-check"
+  >
+    <div
+      className="col-sm-10 offset-sm-0"
+    >
+      <button
+        className="btn btn-secondary"
+        onClick={[Function]}
+        type={undefined}
+      >
+        Edit
+      </button>
+    </div>
+  </div>
+</form>
+`;

@@ -1,4 +1,4 @@
-import Reviews from '../../src/state/models/reviews'
+import Reviews from '../../state/models/reviews'
 
 describe('Reviews Model', () => {
   describe('create()', () => {

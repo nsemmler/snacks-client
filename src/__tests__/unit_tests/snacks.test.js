@@ -1,4 +1,4 @@
-import Snacks from '../../src/state/models/snacks'
+import Snacks from '../../state/models/snacks'
 
 describe('Snacks Model', () => {
   describe('all()', () => {

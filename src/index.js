@@ -10,6 +10,10 @@ import reducers from './state/reducers'
 
 const store = createStore(reducers, applyMiddleware(thunk))
 
+import Enzyme from 'enzyme'
+import Adapter from 'enzyme-adapter-react-16'
+Enzyme.configure({ adapter: new Adapter() })
+
 ReactDOM.render(
   <Provider store={store} >
     <App />

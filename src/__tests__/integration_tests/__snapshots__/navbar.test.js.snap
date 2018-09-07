@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Component renders consistently 1`] = `
+<nav
+  className="navbar"
+>
+  <a
+    className="navbar-brand"
+  >
+    Galvanize Snacks
+  </a>
+  <ul
+    className="ml-auto nav"
+  >
+    <li
+      className="nav-item"
+    >
+      <a
+        className="nav-link"
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+    </li>
+    <li
+      className="nav-item"
+    >
+      <a
+        className="nav-link"
+        href="/snacks"
+        onClick={[Function]}
+      >
+        Snacks
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Navbar Component renders consistently 1`] = `
+<nav
+  className="navbar"
+>
+  <a
+    className="navbar-brand"
+  >
+    Galvanize Snacks
+  </a>
+  <ul
+    className="ml-auto nav"
+  >
+    <li
+      className="nav-item"
+    >
+      <a
+        className="nav-link"
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+    </li>
+    <li
+      className="nav-item"
+    >
+      <a
+        className="nav-link"
+        href="/snacks"
+        onClick={[Function]}
+      >
+        Snacks
+      </a>
+    </li>
+  </ul>
+</nav>
+`;

@@ -2,7 +2,7 @@ import React from 'react'
 import {connect} from 'react-redux'
 import {bindActionCreators} from 'redux'
 import {editReview} from '../state/actions'
-import ReactStars from 'react-stars'
+import Rate from 'rc-rate'
 import {
   Button,
   ButtonGroup,
@@ -61,7 +61,7 @@ class Review extends React.Component {
               <FormGroup>
                 <Label for="rating" sm={2}>Rating:
                 </Label>
-                <ReactStars count={5} name="rating" id="rating" value={this.state.reviewStars} onChange={this.ratingChanged} half={false} size={24} color2={'#ffd700'} required="required"/>
+                <Rate count={5} name="rating" id="rating" value={this.state.reviewStars} onChange={this.ratingChanged} half={false} size={24} color2={'#ffd700'} required="required"/>
               </FormGroup>
               <FormGroup row="row">
                 <Label for="title" sm={2}>Title</Label>
@@ -80,7 +80,7 @@ class Review extends React.Component {
                     size: 10,
                     offset: 2
                   }}>
-                  <Button outline="outline" color="success">Submit</Button>
+                  <Button outline color="success">Submit</Button>
                 </Col>
               </FormGroup>
             </Form>
@@ -94,12 +94,12 @@ class Review extends React.Component {
                 <h4 id="review-title">{title}</h4>
               </Row>
               <Row id="review-block-rate">
-                <ReactStars count={5} value={rating} edit={false} size={24} color2={'#ffd700'}/>
+                <Rate count={5} value={rating} edit={false} size={24} color2={'#ffd700'}/>
               </Row>
               <Row>{text}</Row>
               <br/>
               <ButtonGroup>
-                <Button outline="outline" color="warning" size="sm" onClick={this.toggleUpdate}>Edit Review</Button>
+                <Button outline color="warning" size="sm" onClick={this.toggleUpdate}>Edit Review</Button>
               </ButtonGroup>
             </div>
           : null

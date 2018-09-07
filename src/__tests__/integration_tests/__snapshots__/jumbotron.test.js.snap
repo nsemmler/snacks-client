@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Component renders consistently 1`] = `
+<div
+  className="jumbotron"
+  style="100px"
+>
+  <div
+    className="img"
+  />
+  <div
+    className="container"
+  >
+    <h1
+      className="display-3"
+    >
+      Title
+    </h1>
+    <hr
+      className="my-2"
+    />
+    <p
+      className="lead"
+    >
+      Subtitle
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Jumbotron Component renders consistently 1`] = `
+<div
+  className="jumbotron"
+  style="100px"
+>
+  <div
+    className="img"
+  />
+  <div
+    className="container"
+  >
+    <h1
+      className="display-3"
+    >
+      Title
+    </h1>
+    <hr
+      className="my-2"
+    />
+    <p
+      className="lead"
+    >
+      Subtitle
+    </p>
+  </div>
+</div>
+`;

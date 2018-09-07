@@ -1,0 +1,204 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddReview Component renders consistently 1`] = `
+<div
+  className="container"
+>
+  <form
+    className="form-horizontal well"
+    onSubmit={[Function]}
+  >
+    <div>
+      <h4>
+        Add Review
+      </h4>
+    </div>
+    <div
+      className="position-relative form-group"
+    >
+      <label
+        className="col-sm-2 col-form-label"
+        htmlFor="rating"
+      >
+        Rating:
+      </label>
+      <ul
+        className="rc-rate"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onMouseLeave={[Function]}
+        role="radiogroup"
+        style={Object {}}
+        tabIndex={0}
+      >
+        <li
+          aria-checked="false"
+          aria-posinset={1}
+          aria-setsize={5}
+          className="rc-rate-star rc-rate-star-zero"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onMouseMove={[Function]}
+          role="radio"
+          tabIndex={0}
+        >
+          <div
+            className="rc-rate-star-first"
+          >
+            ★
+          </div>
+          <div
+            className="rc-rate-star-second"
+          >
+            ★
+          </div>
+        </li>
+        <li
+          aria-checked="false"
+          aria-posinset={2}
+          aria-setsize={5}
+          className="rc-rate-star rc-rate-star-zero"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onMouseMove={[Function]}
+          role="radio"
+          tabIndex={0}
+        >
+          <div
+            className="rc-rate-star-first"
+          >
+            ★
+          </div>
+          <div
+            className="rc-rate-star-second"
+          >
+            ★
+          </div>
+        </li>
+        <li
+          aria-checked="false"
+          aria-posinset={3}
+          aria-setsize={5}
+          className="rc-rate-star rc-rate-star-zero"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onMouseMove={[Function]}
+          role="radio"
+          tabIndex={0}
+        >
+          <div
+            className="rc-rate-star-first"
+          >
+            ★
+          </div>
+          <div
+            className="rc-rate-star-second"
+          >
+            ★
+          </div>
+        </li>
+        <li
+          aria-checked="false"
+          aria-posinset={4}
+          aria-setsize={5}
+          className="rc-rate-star rc-rate-star-zero"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onMouseMove={[Function]}
+          role="radio"
+          tabIndex={0}
+        >
+          <div
+            className="rc-rate-star-first"
+          >
+            ★
+          </div>
+          <div
+            className="rc-rate-star-second"
+          >
+            ★
+          </div>
+        </li>
+        <li
+          aria-checked="false"
+          aria-posinset={5}
+          aria-setsize={5}
+          className="rc-rate-star rc-rate-star-zero"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onMouseMove={[Function]}
+          role="radio"
+          tabIndex={0}
+        >
+          <div
+            className="rc-rate-star-first"
+          >
+            ★
+          </div>
+          <div
+            className="rc-rate-star-second"
+          >
+            ★
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="position-relative row form-group"
+    >
+      <label
+        className="col-sm-2 col-form-label"
+        htmlFor="title"
+      >
+        Title
+      </label>
+      <div
+        className="col-sm-9"
+      >
+        <textarea
+          className="form-control"
+          id="title"
+          name="title"
+          required="required"
+        />
+      </div>
+    </div>
+    <div
+      className="position-relative row form-group"
+    >
+      <label
+        className="col-sm-2 col-form-label"
+        htmlFor="description"
+      >
+        Description
+      </label>
+      <div
+        className="col-sm-9"
+      >
+        <textarea
+          className="form-control"
+          id="text"
+          name="text"
+          required="required"
+        />
+      </div>
+    </div>
+    <div
+      className="position-relative row form-check"
+    >
+      <div
+        className="col-sm-10 offset-sm-2"
+      >
+        <button
+          className="btn btn-outline-success"
+          onClick={[Function]}
+          type={undefined}
+        >
+          Submit
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;
